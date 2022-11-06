@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>IF/ELSE</h1>
+    <h1>IF/ELSEIF</h1>
+    <h1>Switch</h1>
+<script>
+//#1
+console.log("If else")
+
+
+
+var count = 44;
+if (count > 33) {
+    console.log("pass in first module");  
+}
+else{
+    console.log("fail")                   
+}
+
+
+var count = 10;
+if (count > 79) {
+    console.log("A");  
+}
+else{
+    console.log("No grade") 
+}
+
+
+
+//#2
+        // var myname = 4;
+
+        var myArray = [] //empty 
+        var myArray = [1, "Jack", 2, 4, true ];
+                    // 0,   1,    2   3  4
+        console.log(myArray);
+        console.log(myArray[0])
+        console.log(myArray[4])
+
+
+        //Object
+        var obj = {
+            //key: value
+            name : "Jack",
+            age : 14,
+            city: "karachi"
+        }
+
+        var obj2 = {
+            //key: value
+            name : "Ali",
+            age : 15,
+            city: "karachi"
+        }
+
+    console.log(obj)
+    console.log(obj2)
+
+    //string notation
+    console.log(obj['name'])
+    //dot notation
+    console.log(obj2.name)
+    
+//#3
+
+
+ //concatenating string with plus operator
+        
+        //Program 1:
+        //Method 1:
+        var StringVar = "Hi I am Javascript" + "on VS code";
+        
+        var StringOne = "Hi! Jack";
+        StringOne += " this is Elon";
+ 
+          //Method 2:
+        console.log(StringOne);
+        console.log(StringVar);
+
+        //Program 2:
+        var myName = "Jack";
+        var str = "Hi " + myName;
+
+        console.log(str);
+
+        var order1 = "$500";
+        var order2 = "$400";
+
+        console.log(str + " your bill is " + order2);
+
+
+        //Find the length of the string
+        
+        //first Method
+        var mystr2 = "Welcome";
+        var mystrlength = mystr2.length;
+        console.log(mystrlength);
+       
+        //Second Method
+        var mystr2 = "Welcome" + "Hi";
+        findstring = mystr2[7];
+        console.log(mystr2.length);
+        console.log(findstring);
+
+
+</script>
+</body>
+</html>
